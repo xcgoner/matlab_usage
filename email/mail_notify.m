@@ -1,7 +1,8 @@
 function [] = mail_notify(emailto, subject, message)
 
-mail = 'xcgoner_matlab@outlook.com';
-psswd = '1234$#@!';
+username = 'username'
+mail = [username, '@outlook.com'];
+psswd = '********';
 host = 'smtp-mail.outlook.com';
 port  = '587';
 
